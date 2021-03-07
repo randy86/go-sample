@@ -1,5 +1,5 @@
 package go_sample
 
-func SayHello() string{
-	return "Hello Testing"
+func SayHello(name string) string{
+	return "Hello Testing " + name
 }
